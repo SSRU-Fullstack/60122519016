@@ -1,11 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Personal Portfolio Website</title>
+
+    <link rel="stylesheet" href="../css/Personal_portfolio.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
-    
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#welcome-section">About me</a>
+            </li>
+            <li>
+                <a href="#projects">My work</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="welcome-section" class="welcome-section">
+        <h1>Welcome to My Wonderland</h1>
+        <p>Miss.Mhanmai Titiyakorn</p>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">These are some of my projects</h2>
+
+        <div class="projects-grid">
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project project-tile">
+                <img class="project-image"
+                    src="../img/1.jpg"
+                    alt="project1" />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Kularb Witthaya School
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project project-tile">
+                <img class="project-image"
+                    src="../img/2.jpg"
+                    alt="project2" />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Satriwit 3 School
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project project-tile">
+                <img class="project-image"
+                    src="../img/3.jpg"
+                    alt="project3" />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Suan Sunandha Rajabhat
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project project-tile">
+                <img class="project-image"
+                    src="../img/4.jpg"
+                    alt="project4" />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Computer Engineering
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" class="project project-tile">
+                <img class="project-image"
+                    src="../img/5.jpg"
+                    alt="project5" />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Industrial Technology
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project project-tile">
+                <img class="project-image"
+                    src="../img/1.jpg"
+                    alt="project6" />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    eieijaa
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+        </div>
+
+        <a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all" target="_blank">Show all<i
+                class="fas fa-chevron-right"></i></a>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Let's get to know each other ^ ^</h2>
+            <p>Want some Donuts?</p>
+        </div>
+        <div class="contact-links">
+            <a href="#" target="_blank" class="btn contact-details"><i
+                    class="fab fa-facebook-square"></i> Facebook</a>
+            <a id="profile-link" href="#" target="_blank" class="btn contact-details"><i
+                    class="fab fa-github"></i> GitHub</a>
+            <a href="#" target="_blank" class="btn contact-details"><i
+                    class="fab fa-twitter"></i> Twitter</a>
+            <a href="#" class="btn contact-details"><i class="fas fa-at"></i> Email</a>
+            <a href="#" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            **This is just a fake portfolio. All the projects and contact details given
+            are not real.
+        </p>
+        <p>
+            &copy; Created by
+            <a href="https://www.freecodecamp.com/" target="_blank">HAlice <i
+                    class="fab fa-free-code-camp"></i></a>
+        </p>
+    </footer>
 </body>
+
 </html>
+
+<script>
+    const projectName = 'portfolio';
+</script>
